@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/images"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/resultImageView"
+        android:layout_width="300dp"
+        android:layout_height="410dp"
+        android:layout_margin="50dp"
+        android:paddingTop="250dp"
+        android:textAlignment="center"
+        android:textColor="#090003"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+    <ImageButton
+        android:id="@+id/rollButton"
+        android:layout_width="238dp"
+        android:layout_height="119dp"
+        android:layout_gravity="center"
+        android:background="#E8E1E1"
+        android:src="@drawable/download"
+        android:textColor="#070000"
+        android:textColorHighlight="#D60E0E"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
